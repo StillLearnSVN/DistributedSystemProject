@@ -79,7 +79,7 @@ CREATE TABLE `jenis_status`  (
 );
 
 
-Use Services-Status;
+Use Services-JenisStatus;
 DROP TABLE IF EXISTS `status`;
 CREATE TABLE `status`  (
   `id_status` int NOT NULL AUTO_INCREMENT,

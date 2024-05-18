@@ -25,7 +25,7 @@ var db *sql.DB
 func main() {
 	// Initialize database connection
 	var err error
-	db, err = sql.Open("mysql", "root:Mypass123@tcp(localhost:3306)/Services-Status")
+	db, err = sql.Open("mysql", "root:Mypass123@tcp(localhost:3306)/Services-JenisStatus")
 	if err != nil {
 		log.Fatal(err)
 	}
